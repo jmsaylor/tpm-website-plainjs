@@ -1,0 +1,15 @@
+@keyframes gradient {
+  from {
+    background-color: darkturquoise;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+body {
+  animation-name: gradient;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
